@@ -1,0 +1,11 @@
+services:
+  cv:
+    build: .
+    volumes:
+      - .:/home/node/app:cached
+    environment:
+      - NODE_ENV=development
+      - CHROME_BIN=/usr/bin/chromium
+    ports:
+      - "127.0.0.1:5173:5173"
+      - "127.0.0.1:4200:4200"
