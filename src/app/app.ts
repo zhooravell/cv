@@ -1,5 +1,6 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component, OnInit, signal} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,17 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
-export class App {
+export class App implements OnInit {
   protected readonly title = signal('cv');
+
+  constructor(private http: HttpClient) {
+  }
+
+  ngOnInit(): void {
+    console.log('App.ngOnInit');
+
+    this.http.get('assets/data/test.json').subscribe(data => {
+      console.log(data);
+    });
+  }
 }
