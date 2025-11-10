@@ -17,7 +17,7 @@ export class App implements OnInit {
   ngOnInit(): void {
     console.log('App.ngOnInit');
 
-    this.http.get('/assets/data/test.json').subscribe(data => {
+    this.http.get('assets/data/test.json').subscribe(data => {
       console.log(data);
     });
   }
