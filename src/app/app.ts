@@ -11,14 +11,7 @@ import {HttpClient} from '@angular/common/http';
 export class App implements OnInit {
   protected readonly title = signal('cv');
 
-  constructor(private http: HttpClient) {
-  }
-
   ngOnInit(): void {
-    console.log('App.ngOnInit');
 
-    this.http.get('assets/data/test.json').subscribe(data => {
-      console.log(data);
-    });
   }
 }
