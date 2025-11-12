@@ -1,11 +1,21 @@
 [
   {
+    "id": 8,
+    "company": "Monobank",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/mono.png",
+    "position": "",
+    "startDate": "2025-01-01",
+    "endDate": "",
+    "description": "",
+    "tags": []
+  },
+  {
     "id": 7,
     "company": "OpenTage",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/open-tag.png",
     "position": "",
     "startDate": "2022-01-01",
-    "endDate": "",
+    "endDate": "2024-12-31",
     "description": "",
     "tags": []
   },

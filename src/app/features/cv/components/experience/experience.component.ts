@@ -56,8 +56,13 @@ export class ExperienceComponent implements OnInit {
     }
 
     let parts: string[] = [];
-    if (years > 0) parts.push(`${years} ${this.plural(years, 'рік', 'роки', 'років')}`);
-    if (months > 0) parts.push(`${months} ${this.plural(months, 'місяць', 'місяці', 'місяців')}`);
+    if (years > 0) {
+      parts.push(`${years} ${this.plural(years, this.translateService.translate('year'), this.translateService.translate('years'), this.translateService.translate('years_many'))}`);
+    }
+
+    if (months > 0) {
+      parts.push(`${months} ${this.plural(months, this.translateService.translate('month'), this.translateService.translate('months'), this.translateService.translate('months_many'))}`);
+    }
 
     return parts.join(' ');
   }

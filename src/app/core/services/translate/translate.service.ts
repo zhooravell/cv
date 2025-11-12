@@ -9,10 +9,22 @@ export class TranslateService {
     en: {
       experience: 'Experience',
       education: 'Education',
+      year: 'year',
+      years: 'years',
+      years_many: 'years',
+      month: 'month',
+      months: 'months',
+      months_many: 'months',
     },
     uk: {
       experience: 'Досвід',
       education: 'Освіта',
+      year: 'рік',
+      years: 'роки',
+      years_many: 'років',
+      month: 'місяць',
+      months: 'місяці',
+      months_many: 'місяців',
     }
   };
 
