@@ -15,6 +15,7 @@ export class TranslateService {
       month: 'month',
       months: 'months',
       months_many: 'months',
+      at: 'at',
     },
     uk: {
       experience: 'Досвід',
@@ -25,6 +26,7 @@ export class TranslateService {
       month: 'місяць',
       months: 'місяці',
       months_many: 'місяців',
+      at: 'в',
     }
   };
 

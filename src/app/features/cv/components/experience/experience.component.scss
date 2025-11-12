@@ -1,17 +1,33 @@
 .experience {
   &__item {
+    aside {
+      width: 190px;
+    }
+
     &__logo {
       img {
-        width: 100px;
+        width: 110px;
       }
     }
 
     &__period {
-
+      font-size: 0.9rem !important;
     }
 
     &__duration {
+      font-size: 0.8rem !important;
+    }
 
+    &__tags {
+      font-size: 0.8rem !important;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 8px;
+      }
     }
   }
 }
