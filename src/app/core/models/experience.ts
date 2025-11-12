@@ -1,9 +1,10 @@
 export interface Experience {
+  id: number;
   company: string;
   companyLogo: string;
   position: string;
-  startDate: Date;
-  endDate: Date | null;
+  startDate: string;
+  endDate: string | null;
   description: string;
   tags: string[];
 }

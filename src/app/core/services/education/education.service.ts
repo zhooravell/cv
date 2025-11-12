@@ -10,7 +10,7 @@ export class EducationService {
   constructor(private http: HttpClient) {
   }
 
-  public get(): Observable<EducationList> {
-    return this.http.get<EducationList>('assets/data/education.uk.json');
+  public get(lang: string): Observable<EducationList> {
+    return this.http.get<EducationList>(`assets/data/education.${lang}.json`);
   }
 }

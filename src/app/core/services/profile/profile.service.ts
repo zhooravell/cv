@@ -10,7 +10,7 @@ export class ProfileService {
   constructor(private http: HttpClient) {
   }
 
-  public get(): Observable<Profile> {
-    return this.http.get<Profile>('assets/data/profile.uk.json');
+  public get(lang: string): Observable<Profile> {
+    return this.http.get<Profile>(`assets/data/profile.${lang}.json`);
   }
 }

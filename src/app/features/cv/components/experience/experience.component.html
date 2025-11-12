@@ -1,0 +1,25 @@
+<section class="experience">
+  <h2 class="experience__title">{{ translateService.translate('experience') }}</h2>
+  @for (item of experience; track item.id) {
+    <div class="experience__item d-flex ">
+      <div>
+        <div class="experience__item__logo">
+          <img src="{{item.companyLogo}}" alt="{{item.company}} logo">
+        </div>
+        <div class="experience__item__period">
+          {{ item.startDate | date:'LLLL yyyy':'':lang | titlecase }} -
+          @if (item.endDate) {
+            {{ item.endDate | date:'LLLL yyyy':'':lang | titlecase }}
+          }
+        </div>
+        <div class="experience__item__duration">
+          {{ diffInYearsAndMonths(item.startDate, item.endDate) }}
+        </div>
+      </div>
+      <div>
+        {{ item.position }}
+        {{ item.company }}
+      </div>
+    </div>
+  }
+</section>
