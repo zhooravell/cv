@@ -3,80 +3,121 @@
     "id": 8,
     "company": "Monobank",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/mono.png",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2025-01-01",
     "endDate": "",
     "description": "",
-    "tags": []
+    "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes"]
   },
   {
     "id": 7,
-    "company": "OpenTage",
+    "company": "OpenTag",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/open-tag.png",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2022-01-01",
     "endDate": "2024-12-31",
-    "description": "",
-    "tags": []
+    "description": "Працю backend розробником. Використовується мікросервісна архітектура",
+    "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "gRPC", "Uber Fx"]
   },
   {
     "id": 6,
     "company": "CentroBill",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/centrobill.png",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2018-08-01",
     "endDate": "2022-01-01",
-    "description": "",
-    "tags": []
+    "description": "Працював над комплексним платіжним шлюзом, який включає систему сповіщень про відкликання платежів, захист від шахрайства, регулярні платежі, відбитки пальців тощо.",
+    "tags": ["PHP", "GoLang", "Redis", "AWS", "MySQL", "Redis", "Docker", "RabbitMQ/SQS", "Spiral Framework"]
   },
   {
     "id": 5,
     "company": "DMarket",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/dmarket.png",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2017-05-01",
     "endDate": "2018-08-01",
-    "description": "",
-    "tags": []
+    "description": "Працював над проектами в ігровій сфері (Steam, Valve та ін.). Інтеграція з іграми, торгівля ігровими предметами.",
+    "tags": ["GoLang", "PHP", "MySQL", "Redis", "RabbitMQ", "MongoDB", "ElasticSearch", "AWS", "Docker", "Kubernetes", "gRPC", "protobuf"]
   },
   {
     "id": 4,
     "company": "Tonic Health",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/tonic.webp",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2016-02-01",
     "endDate": "2017-05-01",
-    "description": "",
-    "tags": []
+    "description": "Працював над найбільшою системою збору медичних даних у США. Компанія вимагає від розробників дотримання техніки розробки TDD і принципів побудови додатків на основі DDD. Брав участь у процесі проходження сертифікації PCI DSS.",
+    "tags": [
+      "PHP",
+      "Symfony 2/3",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "Memcached",
+      "ActiveMQ"
+    ]
   },
   {
     "id": 3,
     "company": "ZEO Alliance",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/zeo.webp",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2013-09-01",
     "endDate": "2015-12-01",
-    "description": "",
-    "tags": []
+    "description": "Працював над кількома проектами: CRM, Внутрішній портал, система масових розсилок.",
+    "tags": [
+      "PHP",
+      "GoLang",
+      "Bash",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "jQuery",
+      "AngularJS",
+      "Zend Framework 1",
+      "Symfony 2",
+      "GrayLog",
+      "Jenkins",
+      "Zabbix"
+    ]
   },
   {
     "id": 2,
-    "company": "ZZ WOLF GROUP PTE. LTD",
+    "company": "ZZ WOLF GROUP",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/zzwolf.png",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2012-04-01",
     "endDate": "2013-09-01",
-    "description": "",
-    "tags": []
+    "description": "Розробка маркетплейсу для мобільних додатків (білінг, статистика, обліковий запис та ін.) та проекту з розпізнаванням об'єктів на зображенні.",
+    "tags": [
+      "Zend Framework 1",
+      "Symfony 1",
+      "Memcached",
+      "PHP",
+      "MySQL",
+      "HTML",
+      "JavaScript",
+      "jQuery",
+      "OpenCV"
+    ]
   },
   {
     "id": 1,
     "company": "SEO-Studio",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/seostudio.webp",
-    "position": "",
+    "position": "Software Developer",
     "startDate": "2010-03-01",
     "endDate": "2010-09-01",
-    "description": "",
-    "tags": []
+    "description": "Технічна сторона SEO оптимізації.",
+    "tags": [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "JavaScript",
+      "jQuery",
+      "WordPress",
+      "Joomla",
+      "Linux"
+    ]
   }
 ]
