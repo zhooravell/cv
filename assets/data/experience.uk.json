@@ -27,7 +27,7 @@
     "startDate": "2018-08-01",
     "endDate": "2022-01-01",
     "description": "Працював над комплексним платіжним шлюзом, який включає систему сповіщень про відкликання платежів, захист від шахрайства, регулярні платежі, відбитки пальців тощо.",
-    "tags": ["PHP", "GoLang", "Redis", "AWS", "MySQL", "Redis", "Docker", "RabbitMQ/SQS", "Spiral Framework"]
+    "tags": ["PHP", "GoLang", "AWS", "MySQL", "Redis", "Docker", "RabbitMQ/SQS", "Spiral Framework"]
   },
   {
     "id": 5,
