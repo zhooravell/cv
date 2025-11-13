@@ -27,14 +27,14 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit(): void {
     this.lang = this.languageService.currentLocale;
-    this.loadExperience();
+    this.load();
     this.languageService.locale$.subscribe(lang => {
       this.lang = lang;
-      this.loadExperience()
+      this.load()
     });
   }
 
-  private loadExperience() {
+  private load() {
     this.experienceService.get(this.lang).subscribe({
       next: (res) => {
         this.experience = res;
