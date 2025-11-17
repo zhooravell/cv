@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "school": "МНТУ",
+    "schoolLogo": "https://zhooravell.github.io/cv/assets/images/istu.png",
+    "city": "Київ",
+    "degree": "Магістр",
+    "startDate": "2006-09-01",
+    "endDate": "2010-07-01",
+    "description": "Інформаційні управляючі системи та технології"
+  }
+]

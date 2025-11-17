@@ -8,7 +8,3 @@ export interface Experience {
   description: string;
   tags: string[];
 }
-
-export interface ExperienceList {
-  data: Experience[]
-}
