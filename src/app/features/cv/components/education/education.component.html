@@ -1,7 +1,7 @@
 <section class="education">
   <h2 class="education__title mb-4">{{ translateService.translate('education') }}</h2>
   @for (item of education; track item.id) {
-    <div class="education__item d-flex mb-4">
+    <div class="education__item d-flex">
       <aside class="flex-shrink-0">
         <div class="education__item__logo">
           <img src="{{item.schoolLogo}}" alt="{{item.school}} logo">
@@ -19,6 +19,9 @@
       <div class="flex-grow-1">
         <h3>{{ item.school }} <span class="text-secondary">{{ item.degree }}</span></h3>
         <div>{{ item.description }}</div>
+      </div>
+      <div class="flex-grow-0 education__item__ckad img-thumbnail">
+        <img src="https://zhooravell.github.io/cv/assets/images/ckad.png" alt="CKAD certificate">
       </div>
     </div>
   }
