@@ -17,7 +17,7 @@
     "startDate": "2022-01-01",
     "endDate": "2024-12-31",
     "description": "Працю backend розробником. Використовується мікросервісна архітектура",
-    "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "gRPC", "Uber Fx"]
+    "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "gRPC", "Gorm", "Uber Fx"]
   },
   {
     "id": 6,
