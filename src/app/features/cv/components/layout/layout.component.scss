@@ -1,4 +1,15 @@
 .cv {
   width: 100vw;
   height: 100vh;
+
+  @media print {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  @media print {
+    &__container {
+      min-width: 98%;
+    }
+  }
 }
