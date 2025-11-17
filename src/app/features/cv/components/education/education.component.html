@@ -1,3 +1,25 @@
 <section class="education">
-  <h2 class="education__title">{{ translateService.translate('education') }}</h2>
+  <h2 class="education__title mb-4">{{ translateService.translate('education') }}</h2>
+  @for (item of education; track item.id) {
+    <div class="education__item d-flex mb-4">
+      <aside class="flex-shrink-0">
+        <div class="education__item__logo">
+          <img src="{{item.schoolLogo}}" alt="{{item.school}} logo">
+        </div>
+        <div class="education__item__period">
+          {{ item.startDate | date:'MMM yyyy':'':lang }} -
+          @if (item.endDate) {
+            {{ item.endDate | date:'MMM yyyy':'':lang }}
+          }
+        </div>
+        <div class="education__item__city text-secondary">
+          {{ item.city }}
+        </div>
+      </aside>
+      <div class="flex-grow-1">
+        <h3>{{ item.school }} <span class="text-secondary">{{ item.degree }}</span></h3>
+        <div>{{ item.description }}</div>
+      </div>
+    </div>
+  }
 </section>
