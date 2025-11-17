@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ExperienceService} from '../../../../core/services/experience/experience.service';
 import {Experience} from '../../../../core/models/experience';
-import {DatePipe, TitleCasePipe} from '@angular/common';
+import {DatePipe} from '@angular/common';
 import {LanguageService} from '../../../../core/services/language/language.service';
 import {TranslateService} from '../../../../core/services/translate/translate.service';
 
@@ -9,7 +9,6 @@ import {TranslateService} from '../../../../core/services/translate/translate.se
   selector: 'app-experience',
   imports: [
     DatePipe,
-    TitleCasePipe
   ],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss',
