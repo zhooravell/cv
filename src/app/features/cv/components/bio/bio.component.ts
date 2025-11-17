@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {ExperienceService} from '../../../../core/services/experience/experience.service';
 import {LanguageService} from '../../../../core/services/language/language.service';
 import {TranslateService} from '../../../../core/services/translate/translate.service';
 import {ProfileService} from '../../../../core/services/profile/profile.service';

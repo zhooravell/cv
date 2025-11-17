@@ -1,5 +1,28 @@
-<section class="bio">
-  <h1>
-    {{bio?.firstName}} {{bio?.lastName}}
-  </h1>
+<section class="bio d-flex align-items-center">
+  <div class="bio__photo flex-shrink-0">
+    <img src="{{bio?.photo}}" alt="avatar" class="rounded-pill img-thumbnail">
+  </div>
+  <div class="bio__info flex-grow-1 px-3">
+    <h1>{{bio?.firstName}} {{bio?.lastName}}</h1>
+  </div>
+  <div class="bio__contacts text-end flex-shrink-0">
+    @for (item of bio?.contacts; track item.value) {
+      <div>
+        @switch (item.type) {
+          @case ("email") {
+            <a href="mailto:{{item.value}}" target="_blank" class="text-dark text-decoration-none">{{item.value}}</a>
+          }
+          @case ("phone") {
+            <a href="tel:{{item.value}}" target="_blank" class="text-dark text-decoration-none">{{item.value}}</a>
+          }
+          @case ("telegram") {
+            <a href="https://t.me/{{item.value.replace('@', '')}}" target="_blank" class="text-dark text-decoration-none">{{item.value}}</a>
+          }
+          @default {
+            {{item.value}}
+          }
+        }
+      </div>
+    }
+  </div>
 </section>
