@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "school": "ISTU",
+    "schoolLogo": "https://zhooravell.github.io/cv/assets/images/istu.png",
+    "city": "Kyiv",
+    "degree": "master",
+    "startDate": "2006-09-01",
+    "endDate": "2010-07-01",
+    "description": "Faculty of Information Control Systems and Technologiesye"
+  }
+]
