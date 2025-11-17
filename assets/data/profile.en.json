@@ -2,6 +2,10 @@
   "firstName": "Roman",
   "lastName": "Zhuravel",
   "birthDate": "",
-  "photo": "https://zhooravell.github.io/cv/assets/images/photo.png",
-  "contacts": []
+  "photo": "https://zhooravell.github.io/cv/assets/images/photo.jpg",
+  "contacts": [
+    {"type": "phone", "value": "+380633098578"},
+    {"type": "email", "value": "zhooravell@gmail.com"},
+    {"type": "telegram", "value": "@zhooravell"}
+  ]
 }
