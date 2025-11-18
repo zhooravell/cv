@@ -6,7 +6,7 @@
     "position": "Software Developer",
     "startDate": "2025-01-01",
     "endDate": "",
-    "description": "",
+    "description": "Backend Developer specializing in GoLang, contributing to the development and maintenance of critical services within the Acquiring business line.",
     "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes"]
   },
   {
@@ -16,7 +16,7 @@
     "position": "Software Developer",
     "startDate": "2022-01-01",
     "endDate": "2024-12-31",
-    "description": "Працю backend розробником. Використовується мікросервісна архітектура",
+    "description": "Specialized in Backend development within a distributed microservices architecture. Developed and maintained high-performance services using GoLang, leveraging gRPC for efficient inter-service communication and Kafka for building event-driven systems. Ensured data integrity and application reliability using PostgreSQL and the Uber Fx dependency injection framework.",
     "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "gRPC", "Gorm", "Uber Fx"]
   },
   {
@@ -26,7 +26,7 @@
     "position": "Software Developer",
     "startDate": "2018-08-01",
     "endDate": "2022-01-01",
-    "description": "Працював над комплексним платіжним шлюзом, який включає систему сповіщень про відкликання платежів, захист від шахрайства, регулярні платежі, відбитки пальців тощо.",
+    "description": "Developed and maintained a complex, high-availability payment gateway responsible for processing millions of transactions. Implemented critical financial features, including recurring billing systems, advanced fraud prevention mechanisms, and a chargeback notification system. Utilized GoLang for performance-critical components and high-load payment processing.",
     "tags": ["PHP", "GoLang", "AWS", "MySQL", "Redis", "Docker", "RabbitMQ/SQS", "Spiral Framework"]
   },
   {
@@ -36,7 +36,7 @@
     "position": "Software Developer",
     "startDate": "2017-05-01",
     "endDate": "2018-08-01",
-    "description": "Працював над проектами в ігровій сфері (Steam, Valve та ін.). Інтеграція з іграми, торгівля ігровими предметами.",
+    "description": "Developed key backend services for a high-tech marketplace in the gaming sector. Implemented complex two-way integration with major gaming platforms, including Steam and Valve, to facilitate secure and efficient trading of virtual in-game items. Utilized GoLang as the primary language for building high-performance, low-latency services.",
     "tags": ["GoLang", "PHP", "MySQL", "Redis", "RabbitMQ", "MongoDB", "ElasticSearch", "AWS", "Docker", "Kubernetes", "gRPC", "protobuf"]
   },
   {
@@ -46,7 +46,7 @@
     "position": "Software Developer",
     "startDate": "2016-02-01",
     "endDate": "2017-05-01",
-    "description": "Працював над найбільшою системою збору медичних даних у США. Компанія вимагає від розробників дотримання техніки розробки TDD і принципів побудови додатків на основі DDD. Брав участь у процесі проходження сертифікації PCI DSS.",
+    "description": "Developed core components for one of the largest medical data collection systems in the USA. Strictly adhered to modern engineering standards, including Test-Driven Development (TDD) and Domain-Driven Design (DDD) principles. Contributed to the PCI DSS certification process, validating experience in building and maintaining secure systems for handling sensitive data.",
     "tags": [
       "PHP",
       "Symfony 2/3",
@@ -64,7 +64,7 @@
     "position": "Software Developer",
     "startDate": "2013-09-01",
     "endDate": "2015-12-01",
-    "description": "Працював над кількома проектами: CRM, Внутрішній портал, система масових розсилок.",
+    "description": "Developed and maintained mission-critical internal systems, including a CRM solution and an Internal Portal, utilizing PHP and GoLang on the backend. Designed and optimized a high-volume mass mailing system, leveraging RabbitMQ for message queuing and Redis for efficient caching, ensuring performance and reliability.",
     "tags": [
       "PHP",
       "GoLang",
@@ -88,7 +88,7 @@
     "position": "Software Developer",
     "startDate": "2012-04-01",
     "endDate": "2013-09-01",
-    "description": "Розробка маркетплейсу для мобільних додатків (білінг, статистика, обліковий запис та ін.) та проекту з розпізнаванням об'єктів на зображенні.",
+    "description": "Full-cycle development of a sophisticated mobile application marketplace, focusing on critical backend systems including billing, detailed user statistics collection, and account management. Utilized Zend Framework 1 and Symfony 1 to ensure system stability and scalability.",
     "tags": [
       "Zend Framework 1",
       "Symfony 1",
@@ -108,7 +108,7 @@
     "position": "Software Developer",
     "startDate": "2010-03-01",
     "endDate": "2010-09-01",
-    "description": "Технічна сторона SEO оптимізації.",
+    "description": "Technical implementation of SEO optimization strategies. Development and maintenance of website functionality.",
     "tags": [
       "PHP",
       "MySQL",
