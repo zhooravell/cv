@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {LanguageService} from '../../../../core/services/language/language.service';
-import {TranslateService} from '../../../../core/services/translate/translate.service';
 import {ProfileService} from '../../../../core/services/profile/profile.service';
 import {Profile} from '../../../../core/models/profile';
 
@@ -17,7 +16,6 @@ export class BioComponent implements OnInit {
   constructor(
     private profileService: ProfileService,
     private languageService: LanguageService,
-    protected translateService: TranslateService,
   ) {
   }
 

@@ -16,6 +16,7 @@ export class TranslateService {
       months: 'months',
       months_many: 'months',
       at: 'at',
+      title: 'r_zhuravel_en'
     },
     uk: {
       experience: 'Досвід',
@@ -27,6 +28,7 @@ export class TranslateService {
       months: 'місяці',
       months_many: 'місяців',
       at: 'в',
+      title: 'r_zhuravel_uk'
     }
   };
 
