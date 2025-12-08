@@ -1,11 +1,11 @@
-<section class="bio d-flex align-items-center">
-  <div class="bio__photo flex-shrink-0">
+<section class="bio row align-items-center">
+  <div class="bio__photo col-4 col-md-auto mb-3 mb-md-0">
     <img src="{{bio?.photo}}" alt="avatar" class="rounded-pill img-thumbnail">
   </div>
-  <div class="bio__info flex-grow-1 px-3">
+  <div class="bio__info col-8 col-md px-md-3 mb-3 mb-md-0">
     <h1>{{bio?.firstName}} {{bio?.lastName}}</h1>
   </div>
-  <div class="bio__contacts text-end flex-shrink-0">
+  <div class="bio__contacts text-end col-12 col-md-auto text-start text-md-end">
     @for (item of bio?.contacts; track item.value) {
       <div>
         @switch (item.type) {
