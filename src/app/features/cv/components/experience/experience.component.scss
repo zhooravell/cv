@@ -21,6 +21,14 @@
 
     &__description {
       font-size: 0.9rem !important;
+
+      ::ng-deep {
+        p {
+          &:last-child {
+            margin-bottom: 1px;
+          }
+        }
+      }
     }
 
     &__tags {
