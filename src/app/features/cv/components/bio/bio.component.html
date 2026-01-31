@@ -18,6 +18,9 @@
           @case ("telegram") {
             <a href="https://t.me/{{item.value.replace('@', '')}}" target="_blank" class="text-dark text-decoration-none">{{item.value}}</a>
           }
+          @case ("linkedin") {
+            <a href="{{item.value}}" target="_blank" class="text-dark text-decoration-none">LinkedIn</a>
+          }
           @default {
             {{item.value}}
           }

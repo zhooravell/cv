@@ -6,6 +6,7 @@
   "contacts": [
     {"type": "phone", "value": "+380633098578"},
     {"type": "email", "value": "zhooravell@gmail.com"},
-    {"type": "telegram", "value": "@zhooravell"}
+    {"type": "telegram", "value": "@zhooravell"},
+    {"type": "linkedin", "value": "https://www.linkedin.com/in/roman-zhuravel-80202a76/"}
   ]
 }

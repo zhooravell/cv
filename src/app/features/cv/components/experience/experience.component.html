@@ -1,5 +1,5 @@
-<section class="experience mt-3">
-  <h2 class="experience__title mb-4">{{ translateService.translate('experience') }}</h2>
+<section class="experience mt-2">
+  <h2 class="experience__title mb-3">{{ translateService.translate('experience') }}</h2>
   @for (item of experience; track item.id) {
     <div class="experience__item d-flex mb-4">
       <aside class="flex-shrink-0">
@@ -17,8 +17,8 @@
         </div>
       </aside>
       <div class="flex-grow-1">
-        <h3>{{ item.position }} {{translateService.translate('at')}} <span class="text-secondary">{{ item.company }}</span></h3>
-        <div>{{item.description}}</div>
+        <h4>{{ item.position }} {{translateService.translate('at')}} <span class="text-secondary">{{ item.company }}</span></h4>
+        <div [innerHTML]="item.description" class="experience__item__description"></div>
         @if (item.tags.length > 0) {
         <ul class="experience__item__tags text-secondary">
           @for (tag of item.tags; track tag) {

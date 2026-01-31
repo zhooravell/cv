@@ -1,16 +1,21 @@
 .education {
   &__item {
     aside {
-      width: 175px;
+      width: 165px;
     }
 
     &__logo {
       img {
-        width: 120px;
+        width: 105px;
       }
     }
 
     &__period {
+      margin-top: 8px;
+      font-size: 0.6rem !important;
+    }
+
+    &__description {
       font-size: 0.9rem !important;
     }
 

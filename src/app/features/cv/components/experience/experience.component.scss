@@ -1,25 +1,30 @@
 .experience {
   &__item {
     aside {
-      width: 175px;
+      width: 150px;
     }
 
     &__logo {
       img {
-        width: 120px;
+        width: 105px;
       }
     }
 
     &__period {
-      font-size: 0.9rem !important;
+      margin-top: 8px;
+      font-size: 0.6rem !important;
     }
 
     &__duration {
       font-size: 0.8rem !important;
     }
 
+    &__description {
+      font-size: 0.9rem !important;
+    }
+
     &__tags {
-      font-size: 0.8rem !important;
+      font-size: 0.7rem !important;
       list-style: none;
       padding: 0;
       margin: 0;
