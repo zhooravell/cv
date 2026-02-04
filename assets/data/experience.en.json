@@ -6,8 +6,14 @@
     "position": "Senior Software Engineer",
     "startDate": "2025-01-01",
     "endDate": "",
-    "description": "Backend Developer specializing in GoLang, contributing to the development and maintenance of critical services within the Acquiring business line.",
-    "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes"]
+    "description": "<p>Working in the Acquiring domain, developing payment services while actively contributing to the team’s engineering culture by improving testing practices, development standards, and participating in hiring Go engineers. Optimized financial statement generation services, increasing their performance and stability. Contributed to the backend development of <strong>Tap to Pay</strong> (smartphone as POS terminal) and <strong>monopay</strong>, implementing payment flows and integrations within the acquiring infrastructure. Working on fiscalization-related integrations and external services with a focus on reliability and regulatory compliance. Built an internal payment testing stand used by QA and business teams for testing and demos, and initiated the development of <strong>SDKs</strong> to standardize and simplify integrations.</p>",
+    "tags": [
+      "GoLang",
+      "PostgreSQL (optimization, partitioning)",
+      "Kafka",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": 7,
@@ -16,8 +22,17 @@
     "position": "Senior Software Engineer",
     "startDate": "2022-01-01",
     "endDate": "2024-12-31",
-    "description": "Specialized in Backend development within a distributed microservices architecture. Developed and maintained high-performance services using GoLang, leveraging gRPC for efficient inter-service communication and Kafka for building event-driven systems. Ensured data integrity and application reliability using PostgreSQL and the Uber Fx dependency injection framework.",
-    "tags": ["GoLang", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "gRPC", "Gorm", "Uber Fx"]
+    "description": "<p>Worked on the development of high-performance backend services within a microservices architecture, using Go as the primary language. Was part of a platform team responsible for building and evolving core services and infrastructure solutions used by multiple business teams. Contributed to the backend <strong>migration from PHP to Go</strong>, helping establish a new technical foundation for the platform. Designed and maintained inter-service communication using gRPC and Kafka, with a strong focus on reliability, data consistency, and overall system stability.</p>",
+    "tags": [
+      "GoLang",
+      "PostgreSQL",
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "gRPC",
+      "Gorm",
+      "Uber Fx"
+    ]
   },
   {
     "id": 6,
@@ -26,8 +41,17 @@
     "position": "Senior Software Engineer",
     "startDate": "2018-08-01",
     "endDate": "2022-01-01",
-    "description": "Developed and maintained a complex, high-availability payment gateway responsible for processing millions of transactions. Implemented critical financial features, including recurring billing systems, advanced fraud prevention mechanisms, and a chargeback notification system. Utilized GoLang for performance-critical components and high-load payment processing.",
-    "tags": ["PHP", "GoLang", "AWS", "MySQL", "Redis", "Docker", "RabbitMQ/SQS", "Spiral Framework"]
+    "description": "<p>Worked on the evolution of a high-availability payment gateway processing millions of transactions, owning critical backend services within core financial flows. Contributed to key platform capabilities including recurring payments, chargeback processing, and fraud-related components. Researched and implemented a <strong>chargeback prevention system</strong> that helped reduce risks and avoid penalties from Visa. Focused on reliability, financial correctness, and stability of integrations with dozens of external payment providers.</p>",
+    "tags": [
+      "PHP",
+      "GoLang",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "RabbitMQ/SQS",
+      "Spiral Framework"
+    ]
   },
   {
     "id": 5,
@@ -36,8 +60,21 @@
     "position": "Senior Software Engineer",
     "startDate": "2017-05-01",
     "endDate": "2018-08-01",
-    "description": "Developed key backend services for a high-tech marketplace in the gaming sector. Implemented complex two-way integration with major gaming platforms, including Steam and Valve, to facilitate secure and efficient trading of virtual in-game items. Utilized GoLang as the primary language for building high-performance, low-latency services.",
-    "tags": ["GoLang", "PHP", "MySQL", "Redis", "RabbitMQ", "MongoDB", "ElasticSearch", "AWS", "Docker", "Kubernetes", "gRPC", "protobuf"]
+    "description": "<p>Worked on the backend of a large-scale gaming marketplace, developing core services and implementing complex two-way integrations with <strong>Steam</strong> and <strong>Valve</strong> to enable secure trading of virtual items. Focused on performance, reliability, and correctness of operations in a distributed, high-load environment.</p>",
+    "tags": [
+      "GoLang",
+      "PHP",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "MongoDB",
+      "ElasticSearch",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "gRPC",
+      "protobuf"
+    ]
   },
   {
     "id": 4,
@@ -46,7 +83,7 @@
     "position": "Software Developer",
     "startDate": "2016-02-01",
     "endDate": "2017-05-01",
-    "description": "Developed core components for one of the largest medical data collection systems in the USA. Strictly adhered to modern engineering standards, including Test-Driven Development (TDD) and Domain-Driven Design (DDD) principles. Contributed to the PCI DSS certification process, validating experience in building and maintaining secure systems for handling sensitive data.",
+    "description": "<p>Worked on core components of a large-scale medical data collection system in the USA, following strong engineering practices such as <strong>Test-Driven Development (TDD)</strong> and <strong>Domain-Driven Design (DDD)</strong>. Contributed to security compliance initiatives and <strong>PCI DSS–related</strong> processes, gaining experience in building and maintaining systems that handle sensitive and protected data.</p>",
     "tags": [
       "PHP",
       "Symfony 2/3",
@@ -64,7 +101,7 @@
     "position": "Software Developer",
     "startDate": "2013-09-01",
     "endDate": "2015-12-01",
-    "description": "Developed and maintained mission-critical internal systems, including a CRM solution and an Internal Portal, utilizing PHP and GoLang on the backend. Designed and optimized a high-volume mass mailing system, leveraging RabbitMQ for message queuing and Redis for efficient caching, ensuring performance and reliability.",
+    "description": "<p>Developed and maintained mission-critical internal systems, including a CRM and internal portal, using PHP and Go on the backend. Designed and optimized a high-volume mass mailing system with RabbitMQ and Redis, ensuring high performance and reliable message processing. Also contributed to the internal educational initiative <strong>ZEO University</strong>, mentoring senior students in practical software development.</p>",
     "tags": [
       "PHP",
       "GoLang",
@@ -88,7 +125,7 @@
     "position": "Software Developer",
     "startDate": "2012-04-01",
     "endDate": "2013-09-01",
-    "description": "Full-cycle development of a sophisticated mobile application marketplace, focusing on critical backend systems including billing, detailed user statistics collection, and account management. Utilized Zend Framework 1 and Symfony 1 to ensure system stability and scalability.",
+    "description": "<p>Contributed to the full-cycle development of a mobile application marketplace, focusing on backend components for billing, user statistics, and account management. Worked on improving system stability and scalability using Zend Framework and Symfony.</p>",
     "tags": [
       "Zend Framework 1",
       "Symfony 1",
@@ -108,7 +145,7 @@
     "position": "Software Developer",
     "startDate": "2010-03-01",
     "endDate": "2010-09-01",
-    "description": "Technical implementation of SEO optimization strategies. Development and maintenance of website functionality.",
+    "description": "<p>Implemented technical SEO optimization strategies and developed and maintained website functionality.</p>",
     "tags": [
       "PHP",
       "MySQL",
