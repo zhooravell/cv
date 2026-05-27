@@ -22,7 +22,7 @@
     "position": "Senior Software Engineer",
     "startDate": "2022-01-01",
     "endDate": "2024-12-31",
-    "description": "<p>Worked on the development of high-performance backend services within a microservices architecture, using Go as the primary language. Was part of a platform team responsible for building and evolving core services and infrastructure solutions used by multiple business teams. Contributed to the backend <strong>migration from PHP to Go</strong>, helping establish a new technical foundation for the platform. Designed and maintained inter-service communication using gRPC and Kafka, with a strong focus on reliability, data consistency, and overall system stability.</p>",
+    "description": "<p>Worked on the development of high-performance backend services within a microservices architecture, using Go as the primary language. Was part of a platform team responsible for building and evolving core services and infrastructure solutions used by multiple business teams. Contributed to the backend <strong>migration from PHP to Go</strong>, helping establish a new technical foundation for the platform. Designed and maintained inter-service communication using gRPC and Kafka, with a strong focus on reliability, data consistency, and overall system stability. Also used Node.js to develop a Backend for Frontend (BFF) gateway that facilitated communication between client applications and microservices.</p>",
     "tags": [
       "GoLang",
       "PostgreSQL",
@@ -31,7 +31,8 @@
       "Kubernetes",
       "gRPC",
       "Gorm",
-      "Uber Fx"
+      "Uber Fx",
+      "node.js"
     ]
   },
   {
