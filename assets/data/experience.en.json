@@ -1,11 +1,21 @@
 [
   {
+    "id": 9,
+    "company": "Buntar Aerospace",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/buntar.png",
+    "position": "Tech Lead",
+    "startDate": "2026-06-01",
+    "endDate": "",
+    "description": "<p>NDA</p>",
+    "tags": ["GCS", "Mavlink", "Edge", "Cloud"]
+  },
+  {
     "id": 8,
     "company": "monobank",
     "companyLogo": "https://zhooravell.github.io/cv/assets/images/mono.png",
     "position": "Senior Software Engineer",
     "startDate": "2025-01-01",
-    "endDate": "",
+    "endDate": "2026-06-01",
     "description": "<p>Working in the Acquiring domain, developing payment services while actively contributing to the team’s engineering culture by improving testing practices, development standards, and participating in hiring Go engineers. Optimized financial statement generation services, increasing their performance and stability. Contributed to the backend development of <strong>Tap to Pay</strong> (smartphone as POS terminal) and <strong>monopay</strong>, implementing payment flows and integrations within the acquiring infrastructure. Working on fiscalization-related integrations and external services with a focus on reliability and regulatory compliance. Built an internal payment testing stand used by QA and business teams for testing and demos, and initiated the development of <strong>SDKs</strong> to standardize and simplify integrations.</p>",
     "tags": [
       "GoLang",
