@@ -6,8 +6,8 @@
     "position": "Tech Lead",
     "startDate": "2026-06-01",
     "endDate": "",
-    "description": "<p>NDA</p>",
-    "tags": ["GCS", "Mavlink", "Edge", "Cloud"]
+    "description": "<p>Design and development of a distributed offline-first Ground Control Station/p>",
+    "tags": ["GCS", "Mavlink", "Edge", "Cloud", "Azure", "GoLang", "NodeJs"]
   },
   {
     "id": 8,
