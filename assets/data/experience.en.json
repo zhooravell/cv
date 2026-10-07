@@ -7,7 +7,7 @@
     "startDate": "2026-06-01",
     "endDate": "",
     "description": "<p>Design and development of a distributed offline-first Ground Control Station/p>",
-    "tags": ["GCS", "Mavlink", "Edge", "Cloud", "Azure", "GoLang", "NodeJs"]
+    "tags": ["GCS", "Mavlink", "Edge", "Cloud", "Azure", "GoLang", "NodeJs", "CI/CD"]
   },
   {
     "id": 8,
@@ -22,7 +22,8 @@
       "PostgreSQL (optimization, partitioning)",
       "Kafka",
       "Docker",
-      "Kubernetes"
+      "Kubernetes", 
+      "CI/CD"
     ]
   },
   {
@@ -42,7 +43,8 @@
       "gRPC",
       "Gorm",
       "Uber Fx",
-      "node.js"
+      "node.js", 
+      "CI/CD"
     ]
   },
   {
