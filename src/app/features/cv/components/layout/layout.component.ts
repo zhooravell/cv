@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {ExperienceComponent} from '../experience/experience.component';
 import {BioComponent} from '../bio/bio.component';
 import {EducationComponent} from '../education/education.component';
@@ -10,6 +10,7 @@ import {TranslateService} from '../../../../core/services/translate/translate.se
   selector: 'app-layout',
   imports: [ExperienceComponent, BioComponent, EducationComponent],
   templateUrl: './layout.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './layout.component.scss',
 })
 export class LayoutComponent implements OnInit {

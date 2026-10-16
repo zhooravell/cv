@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {TranslateService} from '../../../../core/services/translate/translate.service';
 import {LanguageService} from '../../../../core/services/language/language.service';
 import {Education} from '../../../../core/models/education';
@@ -11,6 +11,7 @@ import {DatePipe} from '@angular/common';
     DatePipe
   ],
   templateUrl: './education.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './education.component.scss',
 })
 export class EducationComponent implements OnInit {

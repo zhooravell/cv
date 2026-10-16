@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {LanguageService} from '../../../../core/services/language/language.service';
 import {ProfileService} from '../../../../core/services/profile/profile.service';
 import {Profile} from '../../../../core/models/profile';
@@ -7,6 +7,7 @@ import {Profile} from '../../../../core/models/profile';
   selector: 'app-bio',
   imports: [],
   templateUrl: './bio.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './bio.component.scss',
 })
 export class BioComponent implements OnInit {

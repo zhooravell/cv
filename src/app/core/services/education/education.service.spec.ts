@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 
 import { EducationService } from './education.service';
-import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClient, withXhr} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('EducationService', () => {
@@ -10,7 +10,7 @@ describe('EducationService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        provideHttpClient(),
+        provideHttpClient(withXhr()),
         provideHttpClientTesting(),
       ],
     });

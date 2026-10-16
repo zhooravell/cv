@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {ExperienceService} from '../../../../core/services/experience/experience.service';
 import {Experience} from '../../../../core/models/experience';
 import {DatePipe} from '@angular/common';
@@ -11,6 +11,7 @@ import {TranslateService} from '../../../../core/services/translate/translate.se
     DatePipe,
   ],
   templateUrl: './experience.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './experience.component.scss',
 })
 export class ExperienceComponent implements OnInit {
