@@ -1,0 +1,173 @@
+[
+  {
+    "id": 9,
+    "company": "Buntar Aerospace",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/buntar.png",
+    "position": "Tech Lead",
+    "startDate": "2026-06-01",
+    "endDate": "",
+    "description": "<p>Design and development of a distributed offline-first Ground Control Station/p>",
+    "tags": ["GCS", "Mavlink", "Edge", "Cloud", "Azure", "GoLang", "NodeJs", "CI/CD"]
+  },
+  {
+    "id": 8,
+    "company": "monobank",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/mono.png",
+    "position": "Senior Software Engineer",
+    "startDate": "2025-01-01",
+    "endDate": "2026-06-01",
+    "description": "<p>Working in the Acquiring domain, developing payment services while actively contributing to the team’s engineering culture by improving testing practices, development standards, and participating in hiring Go engineers. Optimized financial statement generation services, increasing their performance and stability. Contributed to the backend development of <strong>Tap to Pay</strong> (smartphone as POS terminal) and <strong>monopay</strong>, implementing payment flows and integrations within the acquiring infrastructure. Working on fiscalization-related integrations and external services with a focus on reliability and regulatory compliance. Built an internal payment testing stand used by QA and business teams for testing and demos, and initiated the development of <strong>SDKs</strong> to standardize and simplify integrations.</p>",
+    "tags": [
+      "GoLang",
+      "PostgreSQL (optimization, partitioning)",
+      "Kafka",
+      "Docker",
+      "Kubernetes", 
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 7,
+    "company": "OpenTag",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/open-tag.png",
+    "position": "Senior Software Engineer",
+    "startDate": "2022-01-01",
+    "endDate": "2024-12-31",
+    "description": "<p>Worked on the development of high-performance backend services within a microservices architecture, using Go as the primary language. Was part of a platform team responsible for building and evolving core services and infrastructure solutions used by multiple business teams. Contributed to the backend <strong>migration from PHP to Go</strong>, helping establish a new technical foundation for the platform. Designed and maintained inter-service communication using gRPC and Kafka, with a strong focus on reliability, data consistency, and overall system stability. Also used Node.js to develop a Backend for Frontend (BFF) gateway that facilitated communication between client applications and microservices.</p>",
+    "tags": [
+      "GoLang",
+      "PostgreSQL",
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "gRPC",
+      "Gorm",
+      "Uber Fx",
+      "node.js", 
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 6,
+    "company": "CentroBill",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/centrobill.png",
+    "position": "Senior Software Engineer",
+    "startDate": "2018-08-01",
+    "endDate": "2022-01-01",
+    "description": "<p>Worked on the evolution of a high-availability payment gateway processing millions of transactions, owning critical backend services within core financial flows. Contributed to key platform capabilities including recurring payments, chargeback processing, and fraud-related components. Researched and implemented a <strong>chargeback prevention system</strong> that helped reduce risks and avoid penalties from Visa. Focused on reliability, financial correctness, and stability of integrations with dozens of external payment providers.</p>",
+    "tags": [
+      "PHP",
+      "GoLang",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "RabbitMQ/SQS",
+      "Spiral Framework"
+    ]
+  },
+  {
+    "id": 5,
+    "company": "DMarket",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/dmarket.png",
+    "position": "Senior Software Engineer",
+    "startDate": "2017-05-01",
+    "endDate": "2018-08-01",
+    "description": "<p>Worked on the backend of a large-scale gaming marketplace, developing core services and implementing complex two-way integrations with <strong>Steam</strong> and <strong>Valve</strong> to enable secure trading of virtual items. Focused on performance, reliability, and correctness of operations in a distributed, high-load environment.</p>",
+    "tags": [
+      "GoLang",
+      "PHP",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "MongoDB",
+      "ElasticSearch",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "gRPC",
+      "protobuf"
+    ]
+  },
+  {
+    "id": 4,
+    "company": "Tonic Health",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/tonic.webp",
+    "position": "Software Developer",
+    "startDate": "2016-02-01",
+    "endDate": "2017-05-01",
+    "description": "<p>Worked on core components of a large-scale medical data collection system in the USA, following strong engineering practices such as <strong>Test-Driven Development (TDD)</strong> and <strong>Domain-Driven Design (DDD)</strong>. Contributed to security compliance initiatives and <strong>PCI DSS–related</strong> processes, gaining experience in building and maintaining systems that handle sensitive and protected data.</p>",
+    "tags": [
+      "PHP",
+      "Symfony 2/3",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "Memcached",
+      "ActiveMQ"
+    ]
+  },
+  {
+    "id": 3,
+    "company": "ZEO Alliance",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/zeo.webp",
+    "position": "Software Developer",
+    "startDate": "2013-09-01",
+    "endDate": "2015-12-01",
+    "description": "<p>Developed and maintained mission-critical internal systems, including a CRM and internal portal, using PHP and Go on the backend. Designed and optimized a high-volume mass mailing system with RabbitMQ and Redis, ensuring high performance and reliable message processing. Also contributed to the internal educational initiative <strong>ZEO University</strong>, mentoring senior students in practical software development.</p>",
+    "tags": [
+      "PHP",
+      "GoLang",
+      "Bash",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "jQuery",
+      "AngularJS",
+      "Zend Framework 1",
+      "Symfony 2",
+      "GrayLog",
+      "Jenkins",
+      "Zabbix"
+    ]
+  },
+  {
+    "id": 2,
+    "company": "ZZ WOLF GROUP",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/zzwolf.png",
+    "position": "Software Developer",
+    "startDate": "2012-04-01",
+    "endDate": "2013-09-01",
+    "description": "<p>Contributed to the full-cycle development of a mobile application marketplace, focusing on backend components for billing, user statistics, and account management. Worked on improving system stability and scalability using Zend Framework and Symfony.</p>",
+    "tags": [
+      "Zend Framework 1",
+      "Symfony 1",
+      "Memcached",
+      "PHP",
+      "MySQL",
+      "HTML",
+      "JavaScript",
+      "jQuery",
+      "OpenCV"
+    ]
+  },
+  {
+    "id": 1,
+    "company": "SEO-Studio",
+    "companyLogo": "https://zhooravell.github.io/cv/assets/images/seostudio.webp",
+    "position": "Software Developer",
+    "startDate": "2010-03-01",
+    "endDate": "2010-09-01",
+    "description": "<p>Implemented technical SEO optimization strategies and developed and maintained website functionality.</p>",
+    "tags": [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "JavaScript",
+      "jQuery",
+      "WordPress",
+      "Joomla",
+      "Linux"
+    ]
+  }
+]
