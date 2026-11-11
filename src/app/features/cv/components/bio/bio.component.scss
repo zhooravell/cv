@@ -5,7 +5,31 @@
     }
   }
 
-  &__info {
+  // A4 print width is below the md breakpoint, so force the desktop layout
+  @media print {
+    flex-wrap: nowrap;
 
+    &__photo,
+    &__contacts {
+      flex: 0 0 auto;
+      width: auto;
+    }
+
+    &__info {
+      flex: 1 0 0%;
+      width: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    &__photo,
+    &__info,
+    &__contacts {
+      margin-bottom: 0 !important;
+    }
+
+    &__contacts {
+      text-align: right !important;
+    }
   }
 }

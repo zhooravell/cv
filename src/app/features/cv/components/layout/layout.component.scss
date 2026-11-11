@@ -9,13 +9,18 @@
   }
 
   @media print {
-    padding-bottom: 10px !important;
-    padding-top: 10px !important;
-  }
+    width: auto;
+    height: auto;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
 
-  @media print {
     &__container {
-      min-width: 98%;
+      // auto width + small side margin keeps the right border inside the printable area
+      box-sizing: border-box;
+      width: auto;
+      max-width: none;
+      margin: 0 2px;
+      padding: 1rem !important;
     }
 
     &_footer {

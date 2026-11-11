@@ -25,3 +25,8 @@ $container-max-widths: (
 
 @import "bootstrap/scss/tables";
 
+
+@page {
+  size: A4;
+  margin: 8mm;
+}
